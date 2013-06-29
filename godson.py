@@ -87,7 +87,7 @@ def gsearch(config):
                 umbr.write(umbrtxt)
                 umbr.close()
         if g == 0:
-            print("Трофеев на букву"+letter+" не обнаружено",shtime())
+            print("Трофеев на букву "+letter+" не обнаружено",shtime())
         else:
             print("Обнаружено трофеев для крафта: ",g)
         if g >= 2:
