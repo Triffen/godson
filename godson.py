@@ -16,7 +16,7 @@ def open_config():
         confpath = sys.path[0]
         conflines = {}        
         config = open(os.path.join(confpath,confname))
-        print(config)
+        #print(config)
         for line in config:
             #print(line)
             (prop,value) = line.split("=")            

@@ -1,4 +1,4 @@
 godson
 ======
 
-godson.py
+Godville user informer
